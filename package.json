@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victormquevedo/Backend-CH-VQ"
+    "url": "git+https://github.com/victormquevedo/CH-DESAFIO12-VQ"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/victormquevedo/Backend-CH-VQ"
+    "url": "https://github.com/victormquevedo/CH-DESAFIO12-VQ"
   },
-  "homepage": "https://github.com/victormquevedo/Backend-CH-VQ",
+  "homepage": "https://github.com/victormquevedo/CH-DESAFIO12-VQ",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "commander": "^11.0.0",

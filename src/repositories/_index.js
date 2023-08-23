@@ -5,10 +5,10 @@ import MessagesRepository from './messages.repositories.js';
 import UsersRepository from './users.repositories.js';
 import TicketsRepository from './tickets.repositories.js';
 
-const productsService = new ProductsRepository(new FactoryProducts());
-const cartsService = new CartsRepository(new FactoryCarts());
-const messagesService = new MessagesRepository(new FactoryMessages());
-const usersService = new UsersRepository(new FactoryUsers());
-const ticketsService = new TicketsRepository(new FactoryTickets());
+const productsService = new ProductsRepository( FactoryProducts );
+const cartsService = new CartsRepository( FactoryCarts );
+const messagesService = new MessagesRepository( FactoryMessages );
+const usersService = new UsersRepository( FactoryUsers );
+const ticketsService = new TicketsRepository( FactoryTickets );
 
 export { productsService, cartsService, messagesService, usersService, ticketsService };

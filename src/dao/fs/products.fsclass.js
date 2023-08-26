@@ -17,7 +17,6 @@ class ProductManager {
       if (!fs.existsSync(path)) {
         await fs.promises.writeFile(path, JSON.stringify([]));
       }
-      return JSON.parse(await fs.promises.readFile(path, 'utf-8'));
     } catch (err) {
       console.log(err);
     }
